@@ -74,10 +74,12 @@ nav a:hover {
     padding: 50px max(30px, calc((100% - 1140px) / 2));
 
     background-image:
+    /*
         linear-gradient(
             rgba(247, 247, 245, 0.70),
             rgba(247, 247, 245, 0.70)
         ),
+    */
         url("Images/Hero Banner Image 2.jpg");
 
     background-size: cover;
