@@ -106,6 +106,54 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* ========================================
+   HERO TEXT COLORS
+======================================== */
+
+.hero .small-title {
+    color: #d1d5db;
+}
+
+.hero h1 {
+    color: #ffffff;
+}
+
+.hero p {
+    color: #e5e7eb;
+}
+
+
+/* ========================================
+   HERO BUTTONS
+======================================== */
+
+/* View My Work */
+.hero .primary {
+    background: #ffffff;
+    color: #111111;
+    border: 1px solid #ffffff;
+}
+
+.hero .primary:hover {
+    background: #e5e7eb;
+    color: #111111;
+}
+
+
+/* Let's Work Together */
+.hero .secondary {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.hero .secondary:hover {
+    background: #ffffff;
+    color: #111111;
+}
+
+/* ************************************ */
+
 .hero p {
     max-width: 650px;
     font-size: 19px;
