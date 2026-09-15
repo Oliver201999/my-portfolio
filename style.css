@@ -47,6 +47,8 @@ nav a:hover {
     color: #000;
 }
 
+/* OLD HERO CSS - COMMENTED OUT
+
 .hero {
     min-height: 85vh;
     display: flex;
@@ -55,6 +57,32 @@ nav a:hover {
     max-width: 1200px;
     margin: auto;
     padding: 50px 30px;
+}
+
+*/
+
+/* NEW HERO CSS - WITH BACKGROUND IMAGE */
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    max-width: none;
+
+    padding: 50px max(30px, calc((100% - 1140px) / 2));
+
+    background-image:
+        linear-gradient(
+            rgba(247, 247, 245, 0.70),
+            rgba(247, 247, 245, 0.70)
+        ),
+        url("Images/Hero Banner Image 1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-content {
